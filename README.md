@@ -1,2 +1,1 @@
 # business-ideas
-# business-Ideas
