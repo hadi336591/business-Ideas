@@ -1,6 +1,5 @@
 import Submission from '../models/Submission.js';
 import Competition from '../models/Competition.js';
-import Submission from '../models/Submission.js';
 import User from '../models/User.js';
 import { sendEmail } from '../utils/email.js';
 import Payment from '../models/Payment.js';

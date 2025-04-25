@@ -11,6 +11,7 @@ import paymentRoutes from './routes/paymentRoutes.js';
 // import webhookRoutes from './routes/webhookRoutes.js';
 import cookieParser from 'cookie-parser';
 import userRoutes from './routes/userRoutes.js';
+import adminRoutes from './routes/adminRoutes.js';
 
 dotenv.config();
 const app = express();
@@ -30,6 +31,7 @@ app.use('/api/competitions', competitionRoutes);
 app.use('/api/payments', paymentRoutes);
 // app.use('/webhook', webhookRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/admin', adminRoutes);
 
 const PORT = process.env.PORT || 5000;
 mongoose
